@@ -1,5 +1,5 @@
 mkdir plugins
 cd plugins
-wget https://www.spigotmc.org/resources/hibernate.4441/download?version=385907
+wget https://github.com/Sharesystems/ss/raw/main/Hibernate-2.0.0.jar
 cd ..
 java -Xms128M -Xmx{{SERVER_MEMORY}}M -Dterminal.jline=false -Dterminal.ansi=true -jar {{SERVER_JARFILE}}
